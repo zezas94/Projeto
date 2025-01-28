@@ -1,0 +1,119 @@
+/* Limpar formato padrão */
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box:*/
+}
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background-color: #e6e6e6;
+    font-size: 16px;
+}
+#area-header-logo, #menu{
+padding: 10px;
+}
+/* Layout */
+#area-header{
+    background-color: #f7b600;
+    color: #ffff;
+    text-align: center;
+}
+#area-header-logo, #area-header-menu{
+    padding: 10px;
+}
+/* Formatacoes gerais */
+#area-header-logo h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+.branco{
+    color: #fff;
+}
+/* ---- Menu ---- */
+a{
+    text-decoration: none;
+}
+#area-header a:link, #area-header a:visited{
+    color: #fff;
+    padding: 8px 10px;
+}
+#area-header a:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color:#f7b600;
+}
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#area-postagens{
+    width: 660px;
+    background-color: #fff;
+    float: left;
+}
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    background-color: #ccc;
+    padding: 10px;
+}
+/* postagens */
+.postagem{
+    margin-bottom: 20px;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    background-color: #fff;
+}
+.imagem-postagem{
+    width: 620px;
+}
+.data{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+hr{
+    margin-bottom: 10px;
+    border: 1px dotted #ccc;
+}
+h2{
+    color: #f7b600;
+    font-size: 1.5em;
+}
+/* links: leia mais e categorias */
+a:link, a:visited{
+    color: #f7b600;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto; /* -- centraliza o conteudo -- */
+}
+h3{
+    background-color: #ccc;
+    color: #f7b600;
+    padding: 5px;
+}
+.conteudo-lateral{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.texto-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
+.sem-borda{
+    border: none;
+}
+.link-cat{
+    display: block;
+}

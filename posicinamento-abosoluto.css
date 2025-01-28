@@ -1,0 +1,36 @@
+body{
+    background-color: #007fc7;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#container{
+    position: relative; /* define o container como referencia para os elementos filhos*/
+    width: 800px;
+    background-color: #ffffff;
+    margin: 0 auto; /* centraliza o container */
+    padding: 20px;
+
+}
+p{
+    width: 350px;
+    border: 1px solid red;
+}
+.absolute{
+    position: absolute;
+    border: 1px solid rgb(1, 15, 1);
+    /*deslocamento*/
+    right: 80px;
+    top: 100px;
+    background-color: #f3fe0f;
+}
+.chat{
+    color: #f2f2ee;
+    border: 2px solid rgb(19, 19, 28);
+    position: fixed;
+    background-color: rgb(63, 39, 129);
+    /*deslocamento*/
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+
+}

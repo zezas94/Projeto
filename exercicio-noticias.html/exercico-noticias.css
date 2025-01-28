@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#principal {
+    background-color: rgb(178, 241, 220);
+    width: 920px;
+    /*center div*/
+    margin: 0 auto;
+    border: 2px solid black;
+}
+#noticias
+ .noticia {
+    background: white margin;
+    width: 280px;
+    padding: 5px;
+    margin: 7px; 
+    float: left /* Alinhar a esquerda */
+    
+
+ }
+
+#galeria-fotos {
+    clear: both;
+}
+h1{
+    background-color: #eec79a;
+}
+.imagem-galeria{
+    width: 256px;
+}

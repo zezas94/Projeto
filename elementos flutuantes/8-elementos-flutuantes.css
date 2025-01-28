@@ -1,0 +1,25 @@
+#principal{
+    background-color: rgb(255, 255, 0);
+    border: 2px black
+}
+.conteudo1{
+    background-color: rgb(220, 81, 81);
+    border: 1px solid gray;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    float: right;
+    color: white;
+}
+.conteudo2{
+    background-color: rgb(42, 198, 42);
+    border: 1px solid gray;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    float: left;
+    color: white;
+}
+.clear{
+    clear: left
+}
